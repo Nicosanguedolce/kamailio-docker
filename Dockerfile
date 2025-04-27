@@ -1,4 +1,4 @@
-FROM kamailio/kamailio:5.6-bookworm
+FROM kamailio/kamailio:latest
 
 # Copiar archivo de configuración
 COPY kamailio.cfg /etc/kamailio/kamailio.cfg
